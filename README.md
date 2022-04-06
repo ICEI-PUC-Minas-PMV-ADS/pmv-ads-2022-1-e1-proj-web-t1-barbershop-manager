@@ -1,12 +1,12 @@
-# TÍTULO DO PROJETO
+# Barber shop Manager
 
-`CURSO`
+Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+Desenvolvimento de Aplicação Web Front-End
 
-`SEMESTRE`
+1º semestre 2022
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Desenvolver um "Website" que promova soluções inteligentes e facilitadoras nas tarefas do ramo das barbearias.
 
 ## Integrantes
 
