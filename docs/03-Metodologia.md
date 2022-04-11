@@ -7,7 +7,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 |Ambiente|Plataforma|Link de Acesso|
 |--------|----------|--------------|
-|Repositório de código fonte|GitHub|https://github.com/rommelcarneiro/tiaw-template|
+|Repositório de código fonte|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-barbershop-manager.git|
 |Documentos do projeto|Google Docs|https://docs.google.com/document/d/1_zh5PobeXSGtOZAjWK2hnmvshMqLWMiC/edit|
 |Projeto de Interface e  Wireframes|Figma| https://www.figma.com/file/lXqDRCONSuOqAiqGLRnYv7/Untitled?node-id=4%3A21| 
 |Gerenciamento do Projeto| À definir| À definir|
