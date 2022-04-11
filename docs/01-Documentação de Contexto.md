@@ -1,13 +1,12 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A tecnologia é um conjunto de técnicas que permitem modificar o ambiente e automatizar alguns processos e serviços. Desde sempre a humanidade utiliza-se desses meios para facilitar algumas demandas do dia a dia.
+Buscando esta interação, com uma barbearia, podemos identificar que a partir do surgimento da tecnologia o modelo de negócio passou por diversas reestruturações ao longo dos séculos. Uma barbearia convencional, tratava-se de um pequeno espaço onde o barbeiro (o próprio dono) contava com uma cadeira e realizava o seu trabalho pela ordem de chegada do cliente. Atualmente, podemos ver que muitas coisas mudaram pela necessidade de remodelar o processo. Para tornar mais atrativo aos clientes, precisou ampliar o espaço físico, prestando um atendimento diferenciado na acolhida dos seus clientes e uma gama de barbeiros especializados nos diversos serviços de uma barbearia. Com isso, passamos a ver o homem moderno muito mais preocupado com a vaidade, a necessidade de ter acesso às ferramentas tecnológicas. E com tais informações, pode identificar uma maior qualidade do que antes era oferecido, construção de algo satisfatório na parte de organização de espaço e tempo ao tratamento da beleza masculina.
+Com o advento da busca incessante pela modernização das barbearias, criaram-se ferramentas para um rápido acesso, interação e solução de interface entre o dono e seus clientes. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+As barbearias sofrem cada vez mais com a falta de organização e gerenciamento do negócio. Os donos das barbearias sentem dificuldades em agendar os horários e também encontrar problemas na prestação de contas com o barbeiro. Com essa desorganização e falta de gestão, os efeitos negativos se estendem aos clientes, e os mesmos são submetidos aos desconfortos gerados nos próprios atendimentos.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -16,28 +15,27 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Desenvolver um "Website" que promova soluções inteligentes e facilitadoras nas tarefas do ramo das barbearias.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O Barber shop Manager vem para reduzir agregar valor às barbearias. Fornecendo uma ferramenta inteligente que auxiliará os donos de barbearia na gerência do seu negócio no que diz respeito à organização e controle de caixa. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Para os barbeiros, a confiança de uma ferramenta que vai lhes garantir receber os valor corretos pelos seus serviços, além de estimar quantos clientes ele terá que atender naquele dia, tendo uma agenda totalmente ajustada.
+
+Adeus perder horas nas filas para os clientes! Com acesso ao Barber shop Manager, o cliente poderá selecionar o horário em que deseja ser atendido e com qual profissional ele deseja efetuar o seu serviço.
+
+Assim como diversas áreas, este é o momento de inovar a forma como as barbearias atuam no mercado. 
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Esta solução tem como público alvo os donos de barbearias, barbeiros e clientes de barbearias
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
