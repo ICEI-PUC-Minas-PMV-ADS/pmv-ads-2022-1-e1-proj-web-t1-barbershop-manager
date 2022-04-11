@@ -1,7 +1,9 @@
 # Introdução
 
 A tecnologia é um conjunto de técnicas que permitem modificar o ambiente e automatizar alguns processos e serviços. Desde sempre a humanidade utiliza-se desses meios para facilitar algumas demandas do dia a dia.
+
 Buscando esta interação, com uma barbearia, podemos identificar que a partir do surgimento da tecnologia o modelo de negócio passou por diversas reestruturações ao longo dos séculos. Uma barbearia convencional, tratava-se de um pequeno espaço onde o barbeiro (o próprio dono) contava com uma cadeira e realizava o seu trabalho pela ordem de chegada do cliente. Atualmente, podemos ver que muitas coisas mudaram pela necessidade de remodelar o processo. Para tornar mais atrativo aos clientes, precisou ampliar o espaço físico, prestando um atendimento diferenciado na acolhida dos seus clientes e uma gama de barbeiros especializados nos diversos serviços de uma barbearia. Com isso, passamos a ver o homem moderno muito mais preocupado com a vaidade, a necessidade de ter acesso às ferramentas tecnológicas. E com tais informações, pode identificar uma maior qualidade do que antes era oferecido, construção de algo satisfatório na parte de organização de espaço e tempo ao tratamento da beleza masculina.
+
 Com o advento da busca incessante pela modernização das barbearias, criaram-se ferramentas para um rápido acesso, interação e solução de interface entre o dono e seus clientes. 
 
 ## Problema
