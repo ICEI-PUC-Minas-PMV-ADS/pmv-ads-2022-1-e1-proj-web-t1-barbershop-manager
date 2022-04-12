@@ -16,7 +16,7 @@ Desenvolver um "Website" que promova soluções inteligentes e facilitadoras nas
  
 ## Justificativa
 
-O Barber shop Manager vem para reduzir agregar valor às barbearias. Fornecendo uma ferramenta inteligente que auxiliará os donos de barbearia na gerência do seu negócio no que diz respeito à organização e controle de caixa. 
+O Barber shop Manager vem para agregar valor aos serviços prestados pelas barbearias, fornecendo uma ferramenta inteligente que auxiliará os donos de barbearia na gerência do seu negócio e no que diz respeito à organização do empreendimento.
 
 Para os barbeiros, a confiança de uma ferramenta que vai lhes garantir receber os valor corretos pelos seus serviços, além de estimar quantos clientes ele terá que atender naquele dia, tendo uma agenda totalmente ajustada.
 
