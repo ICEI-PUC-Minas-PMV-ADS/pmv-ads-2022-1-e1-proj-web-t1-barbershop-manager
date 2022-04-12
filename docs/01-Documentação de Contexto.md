@@ -13,7 +13,16 @@ As barbearias sofrem cada vez mais com a falta de organização e gerenciamento 
 ## Objetivos
 
 Desenvolver um "Website" que promova soluções inteligentes e facilitadoras nas tarefas do ramo das barbearias.
+ Objetivos específicos:
  
+   <li>Reduzir filas nas barbearias;</li>
+   <li>Organizar horários de agendamento;</li>
+   <li>Facilitar a comunicação do cliente com a barbearia;</li>
+   <li>Oferecer opções de barbearias e profissionais aos clientes;</li>
+   <li>Auxíliar os Donos de barbearias na organização do seu empreendimento;</li>
+   <li>Permitir que os barbeiros possam ter um controle maior do seu dia com base nos clientes agendados;</li>
+   
+   
 ## Justificativa
 
 O Barber shop Manager vem para agregar valor aos serviços prestados pelas barbearias, fornecendo uma ferramenta inteligente que auxiliará os donos de barbearia na gerência do seu negócio e no que diz respeito à organização do empreendimento.
