@@ -6,7 +6,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 |Sandro Barbalho Montese| |
 |-----------------------|-|
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.prefeitura.sp.gov.br%2Fcidade%2Fsecretarias%2Fsaude%2Fvigilancia_em_saude%2Fcontrole_de_zoonoses%2Fanimais_sinantropicos%2Findex.php%3Fp%3D289901&psig=AOvVaw0WB4Lkc7EMrHZnJ69gAa_1&ust=1649890270487000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjH3a7Oj_cCFQAAAAAdAAAAABAD" alt=""></>
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.prefeitura.sp.gov.br%2Fcidade%2Fsecretarias%2Fsaude%2Fvigilancia_em_saude%2Fcontrole_de_zoonoses%2Fanimais_sinantropicos%2Findex.php%3Fp%3D289901&psig=AOvVaw0WB4Lkc7EMrHZnJ69gAa_1&ust=1649890270487000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjH3a7Oj_cCFQAAAAAdAAAAABAD" alt=""/>
 |Idade:|61|           
 |Ocupação:|  Empreendedor, Dono de barbearia |
 |Aplicativos:|	WhatsApp,	Facebook|
