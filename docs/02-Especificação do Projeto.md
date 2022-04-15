@@ -4,7 +4,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-|Sandro Barbalho Montese| |
+|Sandro Barbalho Montese|![image](https://user-images.githubusercontent.com/103009155/163649876-23befb5f-73c6-435a-acf5-9dc152cfe7b2.png) |
 |-----------------------|-|
 |Idade:|61|           
 |Ocupação:|  Empreendedor, Dono de barbearia |
@@ -14,7 +14,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |Hobbies |	Sommelier de vinhos,	Campeão de sinuca |
 
 
-|Josias Olaio Palmeira| |
+|Josias Olaio Palmeira| ![image](https://user-images.githubusercontent.com/103009155/163650129-0cf2f1e0-047f-4aca-a4f0-9802fa949abb.png) |
 |-----------------------|-|
 |Idade:|45|
 |Ocupação:|  Supervisor Financeiro de Concessionária, Cliente de Barbearia|
@@ -24,7 +24,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |Hobbies: | Colecionador de carros antigos, Crossfit|
 
 
-|Mateus Avelar Assunção| |
+|Mateus Avelar Assunção| ![image](https://user-images.githubusercontent.com/103009155/163650332-75ac21b8-5508-4bb2-bc77-cab9f78a82de.png) |
 |-----------------------|-|
 |Idade: |33|
 |Ocupação:|  Barbeiro|
