@@ -10,7 +10,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Repositório de código fonte|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-barbershop-manager.git|
 |Documentos do projeto|Google Docs|https://docs.google.com/document/d/1_zh5PobeXSGtOZAjWK2hnmvshMqLWMiC/edit|
 |Projeto de Interface e  Wireframes|Figma| https://www.figma.com/file/lXqDRCONSuOqAiqGLRnYv7/Untitled?node-id=4%3A21| 
-|Gerenciamento do Projeto| À definir| À definir|
+|Gerenciamento do Projeto|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-barbershop-manager/projects?type=beta|
 |Comunicação e Reuniões|Microsoft Teams|https://teams.microsoft.com/_#/channelDashboard/PROJ%20ADS%20-%20TURMA%201%20-%205012101/19:b444ac5d340a47a5b210bc31a2442c44@thread.tacv2/td.members |
 
 ## Controle de Versão
