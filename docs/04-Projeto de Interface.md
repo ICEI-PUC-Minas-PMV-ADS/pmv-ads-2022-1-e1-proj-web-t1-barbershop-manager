@@ -59,6 +59,6 @@ A tela de fluxo de agendamento iniciado é acessada após um cliente clicar em u
 
 ### Tela de Horários
 
-A tela de horários apresenta em pequenos cards, os horários que o cliente logado agendou. Cada um dos cards todas as informações sobre o serviço agendado e a possibilidade de cancelá-lo através de um botão.
+A tela de horários apresenta em pequenos cards, os horários que o cliente logado agendou. Cada um dos cards possui todas as informações sobre o serviço agendado e a possibilidade de cancelá-lo através de um botão.
 
 ![image](https://user-images.githubusercontent.com/103009155/163889047-13b40773-81dd-4f70-9361-c55ea7bae3ed.png)
