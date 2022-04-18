@@ -21,21 +21,33 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 
 ## Wireframes
+ À partir dos fluxos de usuário apresentados no tópico de 'User Flow', apresenta-se em detalhe as principais telas que o compõem.
+### Tela Login 
+
+A tela de login é a página inicial ante a abertura do site, nela é apresentado os campos de e-mail e senha, uma vez completos com dados previamente cadastrados a interação com o botão 'Entrar' leva o usuário a Tela de Início. A interação com o botão 'Criar Conta' leva o usuário à 'Tela de Cadastro'.
 
 ![image](https://user-images.githubusercontent.com/103009155/163888213-dc7e0083-333a-46e0-ad7e-88dc19d26102.png)
+
+### Tela de Cadastro
+
 ![image](https://user-images.githubusercontent.com/103009155/163888322-f0685778-fc09-4e31-9a64-d3e5921e43a3.png)
+
+### Tela de Início
+
 ![image](https://user-images.githubusercontent.com/103009155/163888523-1b8c99e1-a1ad-4247-8c38-ab121501e608.png)
+
+### Tela de Unidades
+
 ![image](https://user-images.githubusercontent.com/103009155/163888658-1057fde6-454a-4f06-8929-58cadbc4bcc5.png)
-![image](https://user-images.githubusercontent.com/103009155/163888826-45031a83-c2af-4de7-825a-f83b9efc5f1a.png)
+
+### Tela de Agendamento
+
 ![image](https://user-images.githubusercontent.com/103009155/163888948-184d1865-d41f-42cf-9b9b-a3cfd576109c.png)
+
+### Tela de Fluxo de Agendamento Iniciado
+
+![image](https://user-images.githubusercontent.com/103009155/163888826-45031a83-c2af-4de7-825a-f83b9efc5f1a.png)
+
+### Tela de Horários
+
 ![image](https://user-images.githubusercontent.com/103009155/163889047-13b40773-81dd-4f70-9361-c55ea7bae3ed.png)
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
