@@ -51,6 +51,7 @@ A seguinte divisão de funções foi designada aos membros do projeto:
 ### Processo
 
 Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+
 ![image](https://user-images.githubusercontent.com/103009155/164814636-006dbd4e-3a2f-4446-bd37-13c773c193dc.png)
 ![image](https://user-images.githubusercontent.com/103009155/164814681-1fd368c8-1d64-477a-a12a-9086e27019dd.png)
 ![image](https://user-images.githubusercontent.com/103009155/164814737-938e847e-810e-44f3-bbab-b4eeb1b29b5e.png)
