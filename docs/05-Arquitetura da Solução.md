@@ -44,6 +44,8 @@ Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, 
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
 
+> - O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages);
+
 > **Links Úteis**:
 >
 > - [Website com GitHub Pages](https://pages.github.com/)
