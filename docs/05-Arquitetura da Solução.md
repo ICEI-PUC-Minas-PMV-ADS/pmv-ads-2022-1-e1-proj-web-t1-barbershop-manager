@@ -4,7 +4,7 @@ Definições de como o software é estruturado em termos dos componentes que faz
 
 ## Diagrama de componentes
 
-O Diagrama de componentes ilustra o relacionamento dos componentes que farão parte do software
+O Diagrama de componentes ilustra o relacionamento dos componentes que farão parte do software. Na figura abaixo há uma diagramação geral do relacionamento da Interface, o Local Storage e a Hospedagem
 
 ![Diagrama de Componentes](https://i.gyazo.com/6e6eb5592ebd9694b9c8a4fa0fb6aac1.png)
 
