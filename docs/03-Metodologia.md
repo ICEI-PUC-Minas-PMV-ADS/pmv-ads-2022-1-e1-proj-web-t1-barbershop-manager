@@ -50,13 +50,17 @@ A seguinte divisão de funções foi designada aos membros do projeto:
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Para melhor organização e acompanhamento do progresso do projeto foram criados taskboards na página do GitHub. Foram criados
+dois principais taskboards, um contendo as milestones definidas para o desenvolvimento da página web, outro contendo as
+entregas previstas para cada etapa pré-definida do projeto.
 
+Abaixo o taskboard contendo as entregas por etapa do projeto.
+![image](https://i.gyazo.com/15548da923a7c610c1e1c1f81bb7e184.png)
+
+Abaixo o taskboard contendo as tarefas necessárias para o desenvolvimento da pagina web
 ![image](https://user-images.githubusercontent.com/103009155/164814636-006dbd4e-3a2f-4446-bd37-13c773c193dc.png)
 ![image](https://user-images.githubusercontent.com/103009155/164814681-1fd368c8-1d64-477a-a12a-9086e27019dd.png)
 ![image](https://user-images.githubusercontent.com/103009155/164814737-938e847e-810e-44f3-bbab-b4eeb1b29b5e.png)
 ![image](https://user-images.githubusercontent.com/103009155/164814763-42734df0-ded4-4b82-8772-87f8d84ca8cd.png)
 ![image](https://user-images.githubusercontent.com/103009155/164814793-e50cbcf1-9cae-4396-a5f4-c37a7d52f364.png)
 ![image](https://user-images.githubusercontent.com/103009155/164814822-e302b047-1e71-41d5-aa23-e1324553cc77.png)
-![image](https://user-images.githubusercontent.com/103009155/164814856-3bf69f25-904c-4723-ac3d-ae08aeda72af.png)
-
