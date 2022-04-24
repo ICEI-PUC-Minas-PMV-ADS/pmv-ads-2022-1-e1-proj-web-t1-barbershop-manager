@@ -6,49 +6,27 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+O Diagrama de componentes ilustra o relacionamento dos componentes que farão parte do software
 
-Exemplo: 
-
-Os componentes que fazem parte da solução são apresentados na Figura XX.
-
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+![Diagrama de Componentes](https://i.gyazo.com/6e6eb5592ebd9694b9c8a4fa0fb6aac1.png)
 
 A solução implementada conta com os seguintes módulos:
-- **Navegador** - O sistema deve funcionar na maioria dos navegadores (Google Chrome, Firefox, Microsoft Edge) 
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
+- **Navegador** - A camada de acesso mais alta do sistema, a página web só pode ser acessada por navegadores (Opera, Mozilla Firefox, Google Chrome)
+  - **Web UI** - A Interface de Usuário, o conjunto de arquivos Html, CSS e JavaScript que permitem a interação ea renderização das funcionalidades do site.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Tela de Cadastro** - A tela de cadastro é acessada através do botão 'Criar Conta' na tela de login. Por meio dela um cliente poderá preencher os campos necessários para o cadastro (Nome completo, Senha, E-mail e Data de nascimento) e com dados preenchidos criar uma conta no site.
-     - **Comentários** - registro de opiniões dos usuários (Tela de Fluxo de Agendamento Iniciado)
-     - **Tela de início** - lista de notícias mantidas para leitura e acesso
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
-
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
-
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+     - **Barbeiros** - Armazenamento dos objetos da classe barbeiros, incluindo, Id Barbeiro, Nome, Imagem, Horários Disponíveis, Serviços Providos, Horários Agendados e descrição.
+     - **Clientes** - Armazenamento dos objetos da classe cliente, incluindo, Id Cliente, Nome, E-Mail, Data de Aniversário, Lista Id's de Agendamentos.
+     - **Agendamentos** - Armazenamento dos objetos da classe agendamentos, incluindo, Id Agendamento, Id Cliente, Id Barbeiro, Serviços Escolhidos, Horário, Total à     Pagar, Forma de pagamento
+ - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas, GitHub. 
 
 ## Tecnologias Utilizadas
-
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
 > - Linguagens utilizadas para a base do desenvolvimento web do projeto: HTML, CSS e JavaScript.
 > - Editor gráfico de vetor e prototipagem de projetos de design: Figma.
 > - Hospedagem da documentação e arquivos do projeto: Github.
+> - Ferramenta de Desenvolvimento (IDE): Visual Studio Code (VSCode) 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A hospedagem do website foi feita através da plataforma [GitHub Pages](https://pages.github.com/)
 
-> - O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages);
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
