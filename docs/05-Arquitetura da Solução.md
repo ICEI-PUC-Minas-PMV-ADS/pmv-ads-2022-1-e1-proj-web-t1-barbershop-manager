@@ -21,8 +21,8 @@ A solução implementada conta com os seguintes módulos:
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
      - **Canais** - seções de notícias apresentadas 
      - **Tela de Cadastro** - A tela de cadastro é acessada através do botão 'Criar Conta' na tela de login. Por meio dela um cliente poderá preencher os campos necessários para o cadastro (Nome completo, Senha, E-mail e Data de nascimento) e com dados preenchidos criar uma conta no site.
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
+     - **Comentários** - registro de opiniões dos usuários (Tela de Fluxo de Agendamento Iniciado)
+     - **Tela de início** - lista de notícias mantidas para leitura e acesso
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
