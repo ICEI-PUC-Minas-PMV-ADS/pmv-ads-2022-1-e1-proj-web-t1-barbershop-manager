@@ -6,22 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Rommel">
     <meta name="keywords" content="html, web, css">
-    <link rel="stylesheet" href="style.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div>
-<form>
-<fieldset>
-<h1><strong>Cadastrar Conta</strong></h1><br><br>
-<label> Nome completo: </label> <br> <input type="text" name="'Nome" value="" required><br>
-<label> Senha: </label> <br> <input type="password" name="Senha" value=""><br>
-<label> E-mail: </label> <br> <input type="e-mail" name="E-mail" value=""><br>
-<label> Data de Nascimento: </label> <br> <input type="date" name="Data" value=""><br><br>
+        <div class="div-cadastro">
+<h1><strong>Cadastrar Conta</strong></h1>
+<label> Nome completo: </label> <input class="principal" type="text" name="'Nome" value="" required>
+<label> Senha: </label> <input class="principal" type="password" name="Senha" value="">
+<label> E-mail: </label> <input class="principal" type="e-mail" name="E-mail" value="">
+<label> Data de Nascimento: </label> <input class="principal" type="date" name="Data" value="">
+
+<div class="div-button">
 <input type="button" value="Cancelar">
 <input type="button" value="Criar Conta">
-
-</fieldset>
-</form>
+</div>
         </div>
-    </body>
+</body>
 </html>
