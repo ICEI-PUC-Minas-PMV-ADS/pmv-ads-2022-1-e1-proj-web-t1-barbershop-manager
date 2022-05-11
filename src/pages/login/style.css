@@ -1,19 +1,71 @@
 body{
-    background-color: #FFFAFA;
+    background-image: linear-gradient(black, #fffafa);
+    display: flex;
+    min-height: 100vh;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .principal{
-    background-color: #f6f7f9;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 80px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgb(61, 57, 57);
+background-color: #FFFAFA;
+border-radius: 5px;
+box-shadow: 1px 3px 31px -7px white;
+width: 250px;
+padding: 50px;
+min-height: 250px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
 }
 
-.criar-conta{
-   
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+.principal > button{
+background-color: black;
+border:1px solid black;
+color: #FFFAFA;
+padding: 10px;
+font-size: 15px;
+border-radius: 4px;
+margin-top: 25px;
+cursor: pointer;
+}
+.principal > button:hover{
+    background-color: #424242;
+    border:1px solid #424242;
+}
 
+.principal > a{
+    text-decoration: none ;
+    color: black;
+    font-size: 12px;
+    text-align: right;
+
+
+}
+p{
+    color: black;
+    margin-top: 20px;
+    
+}
+
+p > a{
+    text-decoration: none ;
+    color: #FFFAFA;
+    background-color: black;
+    padding: 5px;
+    border-radius: 4px;
+    width: 50px;
+  
+}
+
+p > a:hover{
+    background-color: #424242;
+    color: #FFFAFA;
+   transition: width 2s linear 1s;
 }
