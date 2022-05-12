@@ -6,11 +6,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
+    background-image: url("../../assets/images/home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .div-cadastro {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,22 +21,29 @@ body {
     padding: 25px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 50px;
-    box-sizing: border-box;   
+    box-sizing: border-box;
+    margin: auto;
+}
+
+section.logo {
+    width: 30%;
+    padding-left: 4em;
+}
+
+section.logo > img {
+    width: 100%;
 }
 
 h1 {
-
     font-size: 24px;
     text-align: center;
 }
 
 label {
-
     font-size: 16px;      
 }
 
 .principal {
-
     padding: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -42,15 +51,14 @@ label {
 }
 
 .div-button {
-
     display: flex;
     justify-content: space-between;
-
 }
 
-.div-button > input {
-
+.div-button > a {
     background: transparent;
     border: none;
     font-size: 20px;
+    text-decoration: none;
+    color: #000;
 }
