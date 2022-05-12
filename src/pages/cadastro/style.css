@@ -1,0 +1,56 @@
+
+body {
+    font-family: "Petrona", serif;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.div-cadastro {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    background-color: rgb(245, 234, 207);
+    padding: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    box-sizing: border-box;   
+}
+
+h1 {
+
+    font-size: 24px;
+    text-align: center;
+}
+
+label {
+
+    font-size: 16px;      
+}
+
+.principal {
+
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.div-button {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div-button > input {
+
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
