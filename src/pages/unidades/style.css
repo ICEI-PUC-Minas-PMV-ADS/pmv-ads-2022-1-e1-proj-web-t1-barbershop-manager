@@ -1,0 +1,33 @@
+section.conteudo-principal.unidades {
+  width: 30%;
+}
+
+.cartoes {
+  padding: 2em;
+}
+
+.cartoes > div > h1 {
+  font-size: 45px;
+}
+
+.cartoes > div > p {
+  font-size: 24px;
+}
+
+.principal {
+  justify-content: center;
+}
+
+section.fotos-unidade {
+  padding-top: 4em;
+  width: 50%;
+}
+
+.unidade-imagem {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.unidade-imagem > img {
+  width: 100%;
+}

@@ -4,6 +4,19 @@ body {
   margin: 0;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border: 1px solid transparent;
+}
+
 header {
   background: #85865f;
   display: flex;
@@ -44,7 +57,7 @@ header > button > img {
   width: 100%;
 }
 
-.principal-home {
+.principal {
   display: flex;
   justify-content: space-between;
   background-image: url("./assets/images/home.png");
