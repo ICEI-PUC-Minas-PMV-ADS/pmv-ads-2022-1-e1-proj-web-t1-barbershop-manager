@@ -15,6 +15,13 @@ Linguagem HTML:
 
 Linguagem CSS:
 ![image](https://user-images.githubusercontent.com/103009155/168449380-3629a803-484d-4e83-8c9a-e57adce2de20.png)
+![image](https://user-images.githubusercontent.com/103009155/168449413-371c331d-bd32-41e0-9be2-6869fc376f29.png)
+![image](https://user-images.githubusercontent.com/103009155/168449430-a5a40a07-fa48-4c3f-aec8-1ce40e7111a1.png)
+![image](https://user-images.githubusercontent.com/103009155/168449437-37bc858c-6931-490d-8343-2e0fe7d107e6.png)
+![image](https://user-images.githubusercontent.com/103009155/168449446-bc1ba390-ab33-428f-b95c-14eea761c764.png)
+
+Resultado da tela no Navegador:
+![image](https://user-images.githubusercontent.com/103009155/168449471-3da7c4f3-9dc0-4520-aa1c-90d0f2525c9b.png)
 
 
 
