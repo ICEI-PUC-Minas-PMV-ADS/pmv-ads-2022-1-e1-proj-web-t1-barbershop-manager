@@ -4,7 +4,7 @@
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-### Tela de Login
+## Tela de Login
 
 . Desenvolvedor: Samuel de Jesus Santos
 
@@ -17,10 +17,10 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 ![image](https://user-images.githubusercontent.com/103009155/168449745-72ece8a0-db31-4c57-92fa-17cce4575426.png)
 ![image](https://user-images.githubusercontent.com/103009155/168449756-3f67a175-faad-45b5-9dee-84b8b31ca4de.png)
 
-. Layout da tela no Navegador:
+### Layout da tela no Navegador:
 ![image](https://user-images.githubusercontent.com/103009155/168449586-9cee9797-fab8-4d38-ac5f-1a467adb7f15.png)
 
-### Tela de Cadastro 
+## Tela de Cadastro 
 
 . Desenvolvedor: Ramon Bicalho Cruz Magalhães
 
@@ -32,10 +32,10 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 ![image](https://user-images.githubusercontent.com/103009155/168449793-c46b8c9e-c7b1-4c6f-8e95-a8b41ecec20e.png)
 ![image](https://user-images.githubusercontent.com/103009155/168449799-7e91e83c-36de-4911-8521-66db504b9c94.png)
 
-. Layout da tela no Navegador:
+### Layout da tela no Navegador:
 ![image](https://user-images.githubusercontent.com/103009155/168449534-35f5fde5-e52a-48f2-8cb5-ae0aebaa32b3.png)
 
-### Tela Início 
+## Tela Início 
 
 . Desenvolvedor: Herbert Nordson Silva dos Santos
 
@@ -51,10 +51,10 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 ![image](https://user-images.githubusercontent.com/103009155/168449437-37bc858c-6931-490d-8343-2e0fe7d107e6.png)
 ![image](https://user-images.githubusercontent.com/103009155/168449446-bc1ba390-ab33-428f-b95c-14eea761c764.png)
 
-. Layout da tela no Navegador:
+### Layout da tela no Navegador:
 ![image](https://user-images.githubusercontent.com/103009155/168449471-3da7c4f3-9dc0-4520-aa1c-90d0f2525c9b.png)
 
-### Tela de Unidades 
+## Tela de Unidades 
 
 . Desenvolvedor: Vinícius de Souza Ponciano
 
@@ -67,5 +67,5 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 ![image](https://user-images.githubusercontent.com/103009155/168449888-e22e9934-2f93-4b8b-b1a3-e0bcfe27bda8.png)
 ![image](https://user-images.githubusercontent.com/103009155/168449896-b076880d-9410-469c-960b-8b53270c0af4.png)
 
-. Layout da tela no Navegador:
+### Layout da tela no Navegador:
 ![image](https://user-images.githubusercontent.com/103009155/168449646-cd3340f2-6809-4c08-971a-d6a5e526e61d.png)
