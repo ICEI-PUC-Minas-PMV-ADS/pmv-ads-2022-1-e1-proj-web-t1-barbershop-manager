@@ -11,9 +11,11 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 Linguagem HTML:
 ![image](https://user-images.githubusercontent.com/103009155/168449220-e30d4ec0-29f1-405d-afd8-cf1be37f1e4c.png)
 ![image](https://user-images.githubusercontent.com/103009155/168449301-a5ab46d0-8d3c-45d3-906a-0df500d90b25.png)
-
+![image](https://user-images.githubusercontent.com/103009155/168449341-28e52f40-950f-4a48-8d1a-454adc6677a9.png)
 
 Linguagem CSS:
+![image](https://user-images.githubusercontent.com/103009155/168449380-3629a803-484d-4e83-8c9a-e57adce2de20.png)
+
 
 
 
