@@ -8,7 +8,7 @@ Tela Login
 . Desenvolvedor: Herbert Nordson Silva dos Santos
 
 Linguagem HTML:
-<imag ![image](https://user-images.githubusercontent.com/103009155/168449170-a2c2ed0a-8a05-4cc8-8023-3d723e76c03f.png)
+[image](https://user-images.githubusercontent.com/103009155/168449170-a2c2ed0a-8a05-4cc8-8023-3d723e76c03f.png)
 
 
 
