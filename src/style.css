@@ -22,7 +22,20 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5em 1em;
+  padding: 8px 16px;
+}
+
+nav.menu {
+  display: flex;
+  align-items: center;
+}
+
+nav.menu > hr {
+  height: 20px;
+  width: 1px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin: 0 8px;
 }
 
 nav.menu > a,
@@ -31,9 +44,6 @@ nav.menu > a,
   color: #fff;
   font-weight: 600;
   font-size: 18px;
-  border-right: 2px solid;
-  padding-right: 10px;
-  margin-right: 10px;
 }
 
 nav.menu > a:nth-child(4n),
@@ -43,7 +53,6 @@ nav.menu > a:nth-child(4n),
 
 nav.menu > a:hover {
   border-bottom: 2px solid;
-  border-width: 80%;
 }
 
 header > button {
@@ -68,14 +77,14 @@ header > button > img {
 }
 
 section.logo {
-  width: 40%;
-  padding: 4em;
+  width: 800px;
+  padding: 64px;
 }
 section.logo > img {
   width: 100%;
 }
 section.conteudo-principal {
-  padding: 4em 2em;
+  padding: 64px 32px;
   width: 60%;
 }
 
@@ -87,7 +96,7 @@ h1 {
 .conteudo-principal > div {
   flex-direction: column;
   align-items: center;
-  background: rgba(245, 234, 207, 0.96);
+  background: rgba(245, 234, 207, 0.9);
   border-radius: 50px;
   overflow: hidden;
 }
@@ -106,7 +115,7 @@ section.cartoes {
 }
 
 .cartoes::-webkit-scrollbar-thumb {
-  background-color: #C4C4C4; /* color of the scroll thumb */
+  background-color: #c4c4c4; /* color of the scroll thumb */
   border-radius: 12px; /* roundness of the scroll thumb */
   border: 1px solid #f5eacf; /* creates padding around scroll thumb */
 }
@@ -120,12 +129,12 @@ section.cartoes {
 
 p.sobre-profissional {
   font-size: 20px;
-  margin: 2em;
+  margin: 32px;
 }
 
 .profissional {
-  width: 25%;
-  margin: 2em;
+  width: 250px;
+  margin: 32px;
   margin-left: 0;
 }
 
@@ -136,7 +145,7 @@ footer {
   background: #85865f;
   color: #fff;
   height: 4vh;
-  padding-right: 1.5em;
+  padding-right: 24px;
   position: fixed;
   bottom: 0;
   right: 0;
