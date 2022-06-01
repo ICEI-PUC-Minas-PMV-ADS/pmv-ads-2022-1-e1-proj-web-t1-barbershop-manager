@@ -87,9 +87,8 @@ h1 {
 .conteudo-principal > div {
   flex-direction: column;
   align-items: center;
-  background: #f5eacf;
+  background: rgba(245, 234, 207, 0.96);
   border-radius: 50px;
-  opacity: 0.9;
   overflow: hidden;
 }
 
@@ -107,7 +106,7 @@ section.cartoes {
 }
 
 .cartoes::-webkit-scrollbar-thumb {
-  background-color: #85865f; /* color of the scroll thumb */
+  background-color: #C4C4C4; /* color of the scroll thumb */
   border-radius: 12px; /* roundness of the scroll thumb */
   border: 1px solid #f5eacf; /* creates padding around scroll thumb */
 }
@@ -138,4 +137,8 @@ footer {
   color: #fff;
   height: 4vh;
   padding-right: 1.5em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
