@@ -10,7 +10,7 @@ O Diagrama de componentes ilustra o relacionamento dos componentes que farão pa
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - A camada de acesso mais alta do sistema, a página web só pode ser acessada por navegadores (Opera, Mozilla Firefox, Google Chrome)
-  - **Web UI** - A Interface de Usuário, o conjunto de arquivos Html, CSS e JavaScript que permitem a interação ea renderização das funcionalidades do site.
+  - **Web UI** - A Interface de Usuário, o conjunto de arquivos Html, CSS e JavaScript que permitem a interação e a renderização das funcionalidades do site.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
      - **Barbeiros** - Armazenamento dos objetos da classe barbeiros, incluindo, Id Barbeiro, Nome, Imagem, Horários Disponíveis, Serviços Providos, Horários Agendados e descrição.
      - **Clientes** - Armazenamento dos objetos da classe cliente, incluindo, Id Cliente, Nome, E-Mail, Data de Aniversário, Lista Id's de Agendamentos.

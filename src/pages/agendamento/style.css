@@ -1,0 +1,64 @@
+section.conteudo-principal {
+  width: 99%;
+}
+
+.conteudo-principal > div {
+  border-radius: 12px;
+}
+
+section.barbeiros {
+  overflow-y: auto;
+  max-height: 65vh;
+}
+
+.barbeiros::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+
+.barbeiros::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+.barbeiros::-webkit-scrollbar-thumb {
+  background-color: #C4C4C4; /* color of the scroll thumb */
+  border-radius: 12px; /* roundness of the scroll thumb */
+  border: 1px solid #f5eacf; /* creates padding around scroll thumb */
+  margin-right: 12px;
+}
+
+div.pesquisas {
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pesquisas > div {
+  margin: 10px 150px  42px 52px;
+  display: inline;
+  justify-content: space-evenly;
+}
+
+input, label {
+  display: block;
+  font-size: 16px;
+}
+
+input{
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
+  border-radius: 5px 5px 0px 0px;
+  padding: 5px 0px 6px 6px;
+  outline: none;
+  background-image: url(../../assets/icons/search.svg);
+  background-repeat: no-repeat;
+  background-position: 200px;
+  width: 220px;
+}
+input::placeholder{
+  color: 9E9E9E
+}
+
+label{
+  text-shadow: 0px 4px 4px rgba(0,0,0, 0.25);;
+}

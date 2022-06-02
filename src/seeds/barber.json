@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "01",
+    "Nome": "Mateus Avelar Assunção",
+    "Imagem": "../assets/images/dono.png",
+    "Horarios": ["08:00", "09:00", "11:00", "13:00", "15:00"],
+    "Servicos": ["Corte", "Barba", "Hidratação", "Coloaração", "Selagem"]
+  },
+  {
+    "Id": "02",
+    "Nome": "Hudson Antonelli",
+    "Imagem": "../assets/images/dono.png",
+    "Horarios": ["08:30", "09:30", "11:30", "13:30", "15:30"],
+    "Servicos": ["Corte", "Barba", "Selagem"]
+  },
+  {
+    "Id": "03",
+    "Nome": "Luis Braga Neto",
+    "Imagem": "../assets/images/dono.png",
+    "Horarios": ["07:30", "10:30", "12:30", "14:30", "16:30"],
+    "Servicos": ["Corte", "Barba"]
+  }
+]
