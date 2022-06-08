@@ -19,8 +19,9 @@ section.conteudo-principal.unidades {
 }
 
 section.fotos-unidade {
-  padding-top: 4em;
+  padding-top: 4vh;
   width: 50%;
+  overflow-y: hidden;
 }
 
 .unidade-imagem {
