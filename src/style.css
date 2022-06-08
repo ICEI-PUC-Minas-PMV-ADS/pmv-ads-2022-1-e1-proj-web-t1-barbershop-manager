@@ -73,18 +73,18 @@ header > button > img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 92vh;
+  height: 92vh;
 }
 
 section.logo {
-  width: 800px;
-  padding: 64px;
+  width: 48vw;
+  padding: 4vh;
 }
 section.logo > img {
   width: 100%;
 }
 section.conteudo-principal {
-  padding: 64px 32px;
+  padding: 4vh 4vw;
   width: 60%;
 }
 
@@ -103,7 +103,7 @@ h1 {
 
 section.cartoes {
   overflow-y: auto;
-  max-height: 65vh;
+  max-height: 70vh;
 }
 
 .cartoes::-webkit-scrollbar {
