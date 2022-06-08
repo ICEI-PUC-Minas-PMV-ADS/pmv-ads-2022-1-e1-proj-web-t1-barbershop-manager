@@ -1,0 +1,20 @@
+{
+  "users" :  [
+        {
+            "email" : "herbert@puc.com",
+            "password" : "123456"
+        }, 
+        {
+            "email" : "samuel@puc.com",
+            "password" : "123456"
+        },
+        {
+            "email" : "ramon@puc.com",
+            "password" : "123456"
+        }, 
+        {
+            "email" : "vinicius@puc.com",
+            "password" : "123456"
+        }
+    ]
+}
