@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,32 @@
     <title>Tela de Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-      <main>
-    <div class="principal">
-        <h1>Fazer Login</h1>
-        <label for="email">E-mail</label>
-        <input type="email" name="E-mail"></input>
+    <main>
+        <div class="principal">
+            <h1>Fazer Login</h1>
+            <span id="message-error">E-mail ou senha incorreto!</span>
+            <label for="email">E-mail</label>
+            <input type="email" name="E-mail" id="email"></input>
 
-        <label for="pass">Senha</label>
-        <input type="password" id="pass" name="password" minlength="8" required> </input>
+            <label for="pass">Senha</label>
+            <input type="password" id="pass" name="password" minlength="8" required> </input>
 
-        <a href="">Esqueci minha senha</a>
-        
-        <button>Entrar</button>
+            <a href="">Esqueci minha senha</a>
 
-        <p>Ainda não tem conta? <a href="../cadastro/index.html">Criar conta.</a></p>
-    </div>
-</main>
+            <button type="submit" id="button-submit">Entrar</button>
+
+            <p>Ainda não tem conta? <a href="../cadastro/index.html">Criar conta.</a></p>
+        </div>
+    </main>
     <footer>
-    <h1 class="footer">
-        Fale Conosco: +55(71)4002-8922
-    </h1>
+        <h1 class="footer">
+            Fale Conosco: +55(71)4002-8922
+        </h1>
     </footer>
 
+    <script src="./index.js"></script>
+</body>
 
 </html>
