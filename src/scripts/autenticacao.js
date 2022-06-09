@@ -3,7 +3,7 @@ let $errorUser = document.getElementById('message-error');
 let result;
 
 const ajax = new XMLHttpRequest();
-ajax.open('GET', './users.json', true);
+ajax.open('GET', '../../seeds/users.json', true);
 ajax.send();
 
 ajax.addEventListener("readystatechange", parseData, false);
@@ -17,19 +17,18 @@ function validatedLoginUser() {
         if(email.value === result.users[i].email && password.value === result.users[i].password) {
             localStorage.setItem("User", email);
             localStorage.getItem(email);
-            window.location.href="../../index.html"; 
-        } else {
-            email.setAttribute("style", "border: 2px solid red");
-            password.setAttribute("style", "border: 2px solid red");
-            $errorUser.setAttribute("style", "display: block;")
+            return window.location.href="../../index.html"; 
         }
     }
+
+    email.setAttribute("style", "border: 2px solid red");
+    password.setAttribute("style", "border: 2px solid red");
+    $errorUser.setAttribute("style", "display: block;");
 }
 
 function parseData() {
     try {
         return result = JSON.parse(ajax.responseText);
-        console.log(result);
     } catch {
         return result = null;
     }
