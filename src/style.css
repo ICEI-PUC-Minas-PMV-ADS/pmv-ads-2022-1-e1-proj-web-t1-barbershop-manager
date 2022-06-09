@@ -17,7 +17,7 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid transparent;
 }
 
-header {
+header > div {
   background: #85865f;
   display: flex;
   justify-content: space-between;
@@ -46,6 +46,10 @@ nav.menu > a,
   font-size: 18px;
 }
 
+.button-menu.active{
+  border-bottom: 2px solid;
+}
+
 nav.menu > a:nth-child(4n),
 .login-button {
   border: none;
@@ -55,14 +59,15 @@ nav.menu > a:hover {
   border-bottom: 2px solid;
 }
 
-header > button {
+header > div > button {
   background: none;
   border: none;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
 }
 
-header > button > img {
+header > div > button > img {
   width: 100%;
 }
 
@@ -77,7 +82,7 @@ header > button > img {
 }
 
 section.logo {
-  width: 48vw;
+  width: 40%;
   padding: 4vh;
 }
 section.logo > img {
@@ -128,13 +133,13 @@ section.cartoes {
 }
 
 p.sobre-profissional {
-  font-size: 20px;
-  margin: 32px;
+  font-size: 1rem;
+  margin: 16px;
 }
 
 .profissional {
-  width: 250px;
-  margin: 32px;
+  width: 30%;
+  margin: 16px;
   margin-left: 0;
 }
 
