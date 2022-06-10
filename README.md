@@ -6,7 +6,7 @@ Desenvolvimento de Aplicação Web Front-End
 
 1º semestre 2022
 
-![image](https://user-images.githubusercontent.com/103009155/163891403-af145bd4-68c3-44cc-8039-850546b462fa.png)
+![logo](https://user-images.githubusercontent.com/86004024/172973241-617bd6df-26df-49d4-8ba8-a4ff2b513d6b.png)
 
 Desenvolver um "Website" que promova soluções inteligentes e facilitadoras nas tarefas do ramo das barbearias.
 
