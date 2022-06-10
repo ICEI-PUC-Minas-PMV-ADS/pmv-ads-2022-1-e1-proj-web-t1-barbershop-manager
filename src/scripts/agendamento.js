@@ -1,12 +1,17 @@
 var barbeiroDiv = document.getElementById("barbeiros-info");
-var barbeiroSeeds = new XMLHttpRequest();
+var inputHorario = document.getElementById("pesquisaHorario");
+var inputBarbeiro = document.getElementById("pesquisaBarbeiro");
+var agendamentosDisponiveis = new XMLHttpRequest();
 
-barbeiroSeeds.open("GET", "../../seeds/barber.json");
-barbeiroSeeds.onload = function () {
-  var barbeirosJson = JSON.parse(barbeiroSeeds.responseText);
+agendamentosDisponiveis.open("GET", "../../seeds/barber.json");
+agendamentosDisponiveis.onload = function () {
+  var barbeirosJson = JSON.parse(agendamentosDisponiveis.responseText);
   renderHTML(barbeirosJson);
 };
-barbeiroSeeds.send();
+agendamentosDisponiveis.send();
+
+inputHorario.addEventListener("input", handlePesquisa, false);
+inputBarbeiro.addEventListener("input", handlePesquisa, false);
 
 function renderHTML(data) {
   var htmlString = "";
@@ -34,13 +39,12 @@ function obtemHorarios(horarios) {
 
 function obtemImagen(url, nome) {
   return (
-    '<div class="info">' +
-    '<p class="textoInfo" style="text-align: center">' +
+    '<div class="info" style="text-align: center">' +
+    '<p class="textoInfo">' +
     nome +
     "</p>" +
-    "<img src=" +
-    url +
-    "></img>" +
+    ("<img src=" + url + ' class="center">') +
+    "</img>" +
     "</div>"
   );
 }
@@ -53,6 +57,36 @@ function obtemInfoServico(servicos, unidade) {
   for (let servico of servicos) {
     stringInfoServico += "<li>" + servico + "</li>";
   }
-  stringInfoServico += "</ul>" + "<a>" + unidade + "</a>" + "</div>";
+  stringInfoServico +=
+    "</ul>" + "<p>Local:</p>" + "<p>" + unidade + "</p>" + "</div>";
   return stringInfoServico;
+}
+
+function handlePesquisa() {
+  var barbeirosJson = JSON.parse(agendamentosDisponiveis.responseText);
+  if (barbeirosJson.length && barbeirosJson.length > 0) {
+    if (inputBarbeiro.value.length && inputBarbeiro.value.length > 0) {
+      barbeirosJson = barbeirosJson.filter(
+        (barbeiro) =>
+          normalizarTexto(barbeiro.Nome).indexOf(
+            normalizarTexto(inputBarbeiro.value)
+          ) !== -1
+      );
+    }
+    if (inputHorario.value.length && inputHorario.value.length > 0) {
+      barbeirosJson = barbeirosJson.filter((barbeiro) =>
+        barbeiro.Horarios.some(horario => horario.includes(inputHorario.value))
+      );
+    }
+  }
+  barbeiroDiv.innerHTML = "";
+  renderHTML(barbeirosJson);
+  agendamentosDisponiveis.send();
+}
+
+function normalizarTexto(text) {
+  return String(text)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
 }

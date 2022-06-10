@@ -7,11 +7,11 @@ section.conteudo-principal.unidades {
 }
 
 .cartoes > div > h1 {
-  font-size: 45px;
+  font-size: 2rem;
 }
 
 .cartoes > div > p {
-  font-size: 24px;
+  font-size: 1rem;
 }
 
 .principal {
@@ -19,7 +19,9 @@ section.conteudo-principal.unidades {
 }
 
 section.fotos-unidade {
-  padding-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 50%;
   overflow-y: hidden;
 }
