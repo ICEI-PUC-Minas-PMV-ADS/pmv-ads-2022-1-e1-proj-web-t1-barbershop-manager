@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "1-1",
+    "Nome": "Barba",
+    "Preco": 23.00,
+    "Imagem": "../../assets/images/servico-barba.png"
+  },
+  {
+    "Id": "1-2",
+    "Nome": "Corte",
+    "Preco": 25.00,
+    "Imagem": "../../assets/images/servico-core.png"
+  },
+  {
+    "Id": "1-3",
+    "Nome": "Hidratação",
+    "Preco": 32.00,
+    "Imagem": "../../assets/images/servico-hidratacao.png"
+  },
+  {
+    "Id": "1-4",
+    "Nome": "Coloração",
+    "Preco": 46.50,
+    "Imagem": "../../assets/images/servico-coloracao.png"
+  },
+  {
+    "Id": "1-5",
+    "Nome": "Selagem",
+    "Preco": 72.80,
+    "Imagem": "../../assets/images/servico-selagem.png"
+  }
+]

@@ -2,6 +2,12 @@ section.conteudo-principal {
   width: 99%;
 }
 
+section.conteudo-agendamento {
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+  width: 100vw;
+}
+
 .conteudo-principal > div {
   border-radius: 12px;
 }
@@ -107,6 +113,48 @@ div.info{
   padding-right: 2vw;
 }
 
+div.dados-agendamento{
+  background-color:#f5eacf;
+  width: inherit;
+  height: 74vh;
+}
+
+div.faixa-inferior{
+  height: 8vh;
+  background-color: #85865F;
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  align-self: flex-end;
+  align-items: center;
+}
+
+.faixa-inferior > button{
+  color: white;
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 4vh;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.25);
+  margin: 0 3vw 0 3vw;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faixa-inferior > button > img{
+  max-height: 7vh;
+  max-width: fit-content;
+}
+
+
+.faixa-inferior > strong{
+  color: white;
+  font-weight: bold;
+  font-size: 4vh;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.25);
+}
+
 .info > ul > li{
   font-weight: 600;
   font-size: 20;
@@ -114,4 +162,8 @@ div.info{
 
 img{
   width: 20vw;
+}
+
+.hidden{
+  display: none;
 }
