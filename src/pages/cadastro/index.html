@@ -19,17 +19,23 @@
     <img src="../../assets/images/logo.png" alt="" />
   </section>
 
-  <div class="div-cadastro">
+  <form class="div-cadastro">
     <h1><strong>Cadastrar Conta</strong></h1>
-    <label> Nome completo: </label> <input class="principal" type="text" name="'Nome" value="" required>
-    <label> Senha: </label> <input class="principal" type="password" name="Senha" value="">
-    <label> E-mail: </label> <input class="principal" type="e-mail" name="E-mail" value="">
-    <label> Data de Nascimento: </label> <input class="principal" type="date" name="Data" value="">
+    <label for="nome"> Nome completo: </label> 
+      <input class="nome" id="nome" type="name" name="nome" value="" minlength="3" required>
+    <label for="senha"> Senha: </label> 
+      <input class="senha" type="password" id="senha" name="senha" value="" required>
+    <label for="email"> E-mail: </label> 
+      <input class="email" type="email" id="email" name="email" value="" required>
+    <label for="nascimento"> Data de Nascimento: </label> 
+      <input class="nascimento" id="nascimento" type="text" name="nascimento" onkeypress="mascaraData( this, event )" value="" required>
 
     <div class="div-button">
       <a href="../../index.html"> Cancelar</a> 
-      <a>Criar Conta</a>
+      <button type="submit" id="submit">Criar Conta</button>
     </div>
-  </div>
+  </form>
+
+  <script src="../../scripts/cadastro.js"></script>
 </body>
 </html>

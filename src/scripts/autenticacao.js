@@ -5,7 +5,6 @@ let result;
 const ajax = new XMLHttpRequest();
 ajax.open('GET', '../../seeds/users.json', true);
 ajax.send();
-
 ajax.addEventListener("readystatechange", parseData, false);
 $buttonSubmit.addEventListener('click', validatedLoginUser, false);
     
