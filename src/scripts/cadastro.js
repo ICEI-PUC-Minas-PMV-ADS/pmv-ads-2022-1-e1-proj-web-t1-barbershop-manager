@@ -1,11 +1,4 @@
-const form = document.querySelector('.div-cadastro')
-
 const novosUsuarios = [];
-
-form.addEventListener('submit', e => {
-    e.preventDefault();
-    validarTudo();
-})
 
 function validarDtNasc() {
     let value = document.querySelector('.nascimento');
