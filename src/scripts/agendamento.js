@@ -1,6 +1,7 @@
 var barbeiroDiv = document.getElementById("barbeiros-info");
 var barbeiroSeeds = new XMLHttpRequest();
 
+
 barbeiroSeeds.open("GET", "../../seeds/barber.json");
 barbeiroSeeds.onload = function () {
   var barbeirosJson = JSON.parse(barbeiroSeeds.responseText);
@@ -34,13 +35,12 @@ function obtemHorarios(horarios) {
 
 function obtemImagen(url, nome) {
   return (
-    '<div class="info">' +
-    '<p class="textoInfo" style="text-align: center">' +
+    '<div class="info" style="text-align: center">' +
+    '<p class="textoInfo">' +
     nome +
     "</p>" +
-    "<img src=" +
-    url +
-    "></img>" +
+    ("<img src=" + url + ' class="center">') +
+    "</img>" +
     "</div>"
   );
 }
@@ -53,6 +53,12 @@ function obtemInfoServico(servicos, unidade) {
   for (let servico of servicos) {
     stringInfoServico += "<li>" + servico + "</li>";
   }
-  stringInfoServico += "</ul>" + "<a>" + unidade + "</a>" + "</div>";
+  stringInfoServico +=
+    "</ul>" +
+    '<p>Local:</p>' +
+    '<p>' +
+    unidade +
+    "</p>" +
+    "</div>";
   return stringInfoServico;
 }

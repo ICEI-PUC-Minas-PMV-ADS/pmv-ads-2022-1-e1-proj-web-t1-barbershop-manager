@@ -8,7 +8,8 @@ section.conteudo-principal {
 
 section.barbeiros {
   overflow-y: auto;
-  max-height: 82vh;
+  max-height: 80vh;
+  padding-bottom: 2vh;
 }
 
 .barbeiros::-webkit-scrollbar {
@@ -68,6 +69,12 @@ div.blocoBarbeiro{
   padding-left: 4vw;
 }
 
+.info > p{
+  font-weight: 600;
+  font-size: 20;
+  line-height: 1rem;
+}
+
 p.textoInfo{
   font-weight: 600;
   font-size: 28px;
@@ -96,7 +103,7 @@ button.botaoAgendamento{
 
 div.info{
   display: block;
-  max-width: 30vw;
+  width: 28vw;
   padding-right: 2vw;
 }
 
@@ -106,5 +113,5 @@ div.info{
 }
 
 img{
-  max-width: 30vw;
+  width: 20vw;
 }
