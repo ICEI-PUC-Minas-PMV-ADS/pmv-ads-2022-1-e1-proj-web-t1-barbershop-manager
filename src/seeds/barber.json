@@ -4,7 +4,7 @@
     "Nome": "Mateus Avelar Assunção",
     "Imagem": "../../assets/images/barbeiro-1.png",
     "Horarios": ["08:00", "09:00", "11:00", "13:00", "15:00", "18:00", "19:00"],
-    "Servicos": ["Corte", "Barba", "Hidratação", "Coloaração", "Selagem"],
+    "Servicos": ["Corte", "Barba", "Hidratação", "Coloração", "Selagem"],
     "Unidade": "Unidade1"
   },
   {
@@ -28,7 +28,7 @@
     "Nome": "Guilherme Gusmão",
     "Imagem": "../../assets/images/barbeiro-4.png",
     "Horarios": ["07:30", "10:30", "12:30", "14:30", "00:30"],
-    "Servicos": ["Corte", "Barba", "Coloaração"],
+    "Servicos": ["Corte", "Barba", "Coloração"],
     "Unidade": "Unidade2"
   }
 ]

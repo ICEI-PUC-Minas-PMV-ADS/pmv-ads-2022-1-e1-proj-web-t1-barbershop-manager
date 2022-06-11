@@ -2,6 +2,12 @@ section.conteudo-principal {
   width: 99%;
 }
 
+section.conteudo-agendamento {
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+  width: 100vw;
+}
+
 .conteudo-principal > div {
   border-radius: 12px;
 }
@@ -107,6 +113,151 @@ div.info{
   padding-right: 2vw;
 }
 
+div.dados-agendamento{
+  background-color:#f5eacf;
+  width: inherit;
+  height: 74vh;
+  display: flex;
+}
+
+.dados-agendamento > div{
+  width: 50vw;
+}
+
+.dados-agendamento > div > textarea{
+  width: 80%;
+  right: -2vh;
+  position: relative;
+  border: none;
+  outline: none;
+  border-radius: 0.5em;
+  box-shadow: 3px 3px 4px rgba(0,0,0, 0.25);
+  resize: none;
+  padding: 0.5em;
+  height: 45%;
+}
+
+div.botoes-servicos{
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.botoes-servicos > div{
+  text-align: center;
+  font-size: 18px;
+  margin: 4vmin;
+  height: fit-content;
+  float: left;
+}
+
+.botoes-servicos > div > p{
+  margin-top: 1vmin;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.25);
+}
+
+.checkmark{
+  max-height: calc(15vmin - 5px); 
+  max-width: calc(15vmin - 5px);
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.imagem-servico {
+  max-height: 15vmin;
+  max-width: 15vmin;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.botoes-servicos > div > img:hover {
+  box-shadow: 2px 2px 4px rgba(0,0,0, 0.25);
+  background-color: rgba(0,0,0, 0.25);
+}
+
+
+div.bloco-servicos > h2{
+  text-align: center;
+  text-shadow: 3px 3px 4px rgba(0,0,0, 0.25);
+}
+
+div.observacoes-e-pagamento{
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.observacoes-e-pagamento > label{
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.observacoes-e-pagamento > div{
+  display: inline-flex;
+  font-weight: 600;
+  padding-top: 15px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.observacoes-e-pagamento > div > select{
+  font-size: 18px;
+  margin-right: 8vw;
+  padding-left: 2%;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0,0,0, 0.25);
+  width: 35%;
+}
+.observacoes-e-pagamento > div > label{
+  font-size: 18px;
+}
+
+.observacoes-e-pagamento > div > strong{
+  margin-right: 8vw;
+  font-size: 18px;
+}
+
+div.faixa-inferior{
+  height: 8vh;
+  background-color: #85865F;
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  align-self: flex-end;
+  align-items: center;
+}
+
+.faixa-inferior > button{
+  color: white;
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 4vh;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.25);
+  margin: 0 3vw 0 3vw;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faixa-inferior > button > img{
+  max-height: 7vh;
+  max-width: fit-content;
+}
+
+
+.faixa-inferior > strong{
+  color: white;
+  font-weight: bold;
+  font-size: 4vh;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.25);
+}
+
 .info > ul > li{
   font-weight: 600;
   font-size: 20;
@@ -114,4 +265,8 @@ div.info{
 
 img{
   width: 20vw;
+}
+
+.hidden{
+  display: none;
 }

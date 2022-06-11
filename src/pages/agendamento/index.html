@@ -16,7 +16,7 @@
     <header></header>
 
     <main class="principal">
-      <section class="conteudo-principal">
+      <section class="conteudo-principal" id="section-barbeiros">
         <div>
           <section class="barbeiros">
             <div class="pesquisas">
@@ -33,6 +33,41 @@
             </div>
           </section>
         </div>
+      </section>
+      <section id="section-agendamento" class="conteudo-agendamento">
+            <div class="dados-agendamento">
+              <div class="bloco-servicos">
+                <h2>Selecione os serviços</h2>
+                <div id="botoes-servicos" class="botoes-servicos"></div>
+              </div>
+              <div class="observacoes-e-pagamento">
+                <label for="Observacoes">Observações ou Restrições</label>
+                <textarea id="texto-observacoes" placeholder="Ex: Só posso usar shampoo de ph baixo"></textarea>
+                <div>
+                  <label for="pagamento">Forma de Pagamento:</label>
+                  <select id="select-pagamento" name="formasDePagamento" form="pagamento">
+                    <option value="Dinheiro">Dinheiro</option>
+                    <option value="Cartão de Crédito">Cartão de Crédito</option>
+                    <option value="Cartão de Débito">Cartão de Débito</option>
+                    <option value="Pix">Pix</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Total:</label>
+                  <strong id="total-a-pagar"></strong>
+                </div>
+              </div>
+            </div>
+            <div class="faixa-inferior">
+              <button id="button-cancelar">
+                <img alt="chevron" src="../../assets/icons/chevron-left.svg" style="margin-right: -0.8vw;"></img>
+                Cancelar</button>
+              <strong id="contador-selecao"></strong>
+              <button id="button-finalizar">Finalizar
+                <img alt="chevron" src="../../assets/icons/chevron-right.svg"style="margin-left: -0.8vw;"></img>
+              </button>
+            </div>
+          </section>
       </section>
     </main>
 
