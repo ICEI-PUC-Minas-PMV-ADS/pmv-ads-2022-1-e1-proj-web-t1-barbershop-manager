@@ -23,15 +23,18 @@
     <h1><strong>Cadastrar Conta</strong></h1>
     <label for="nome"> Nome completo: </label> 
       <input class="nome" id="nome" type="name" name="nome" value="" minlength="3" required>
-    <label for="senha"> Senha: </label> 
+
+    <label for="senha"> Senha: </label>
       <input class="senha" type="password" id="senha" name="senha" value="" required>
+
     <label for="email"> E-mail: </label> 
       <input class="email" type="email" id="email" name="email" value="" required>
+
     <label for="nascimento"> Data de Nascimento: </label> 
       <input class="nascimento" id="nascimento" type="text" name="nascimento" onkeypress="mascaraData( this, event )" value="" required>
 
     <div class="div-button">
-      <a href="../../index.html"> Cancelar</a> 
+      <a href="../../index.html"><strong>Cancelar</strong> </a> 
       <button type="submit" id="submit">Criar Conta</button>
     </div>
   </form>
