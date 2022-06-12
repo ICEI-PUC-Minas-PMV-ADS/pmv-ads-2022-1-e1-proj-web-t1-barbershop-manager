@@ -8,11 +8,24 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 ### Tela de Login
 ![image](https://user-images.githubusercontent.com/103009155/173248515-f4bb229b-80e9-4fea-90ab-cd175b2406c0.png)
- 
+
+### Tela de Início
+![image](https://user-images.githubusercontent.com/103009155/173248619-a1bb2bc3-c71f-4171-be8f-2a66ea433bff.png)
+
+### Tela de Cadastro
+![image](https://user-images.githubusercontent.com/103009155/173248720-6d5bed25-b142-4aa4-acd4-7134db591aed.png)
+
+### Tela de Agendamento
+![image](https://user-images.githubusercontent.com/103009155/173248756-b96f1eec-6bf1-4271-a8df-3b3dab0e8d47.png)
+![image](https://user-images.githubusercontent.com/103009155/173248779-dcdd1fbe-e91c-42d4-be36-606058f7270f.png)
+
+### Tela de Horários
+![image](https://user-images.githubusercontent.com/103009155/173248809-5c22117d-fc9d-4f2b-a237-1f95390c733f.png)
+
+### Tela de Unidades
+![image](https://user-images.githubusercontent.com/103009155/173248825-0676e6ab-4f98-4a15-9d9c-dda2847c422e.png)
 
 
-
- 
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas:
