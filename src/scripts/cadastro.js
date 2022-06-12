@@ -44,7 +44,7 @@ function validarSenha() {
     let value = document.querySelector('.senha');
     let re = /^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%*()_+^&}{:;?.])(?:([0-9a-zA-Z!@#$%;*(){}_+^&])(?!\1)){6,}$/;
     if (!re.test(value.value)) {
-      alert('Senha Inválida! Sua senha precisa conter no mínimo 1 letra maiuscula, 1 letra minúscula, sem repetições de letras ou números em sequeência(11, LL,hh) e possuir no mínimo 6 caracteres.');
+      alert('Senha Inválida! Sua senha precisa conter no mínimo: 1 letra maiuscula, 1 letra minúscula,  1 caractere especial, sem repetições de letras ou números em sequeência(11, LL,hh) e possuir no mínimo 6 caracteres.');
       value.setAttribute("style", "border: 1px solid red;");
       document.form.senha.focus();
       return false;
