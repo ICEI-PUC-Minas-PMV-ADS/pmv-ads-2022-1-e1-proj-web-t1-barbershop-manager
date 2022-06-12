@@ -59,7 +59,7 @@ menu.innerHTML = `
         :
             `
             <button class="loggout">   
-                <img src="./assets/images/log-out.png" alt="loggout" />
+                <img src="`+ (window.location.pathname.includes("src/index.html") ? './assets/images/log-out.png' : '../../assets/images/log-out.png') + `" alt="loggout" />
             </button>
             `)
         + `
