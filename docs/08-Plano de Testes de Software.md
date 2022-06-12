@@ -7,7 +7,8 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
 
 ### Tela de Login
-!image[Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/103009155/173248515-f4bb229b-80e9-4fea-90ab-cd175b2406c0.png)
+ 
 
 
 
