@@ -5,20 +5,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     background-image: url("../../assets/images/home.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 .div-cadastro {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 350px;
+    width: 320px;
     background-color: rgb(245, 234, 207);
-    padding: 25px;
+    padding: 30px 20px 30px 20px;
+    padding-top: 3px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 50px;
     box-sizing: border-box;
@@ -40,14 +41,13 @@ h1 {
 }
 
 label {
-    font-size: 16px;      
+    font-size: 16px; 
+    margin: 5px;     
 }
 
-.principal {
-    padding: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+input {
+    padding: 5px;
+    border-radius: 7px;
 }
 
 .div-button {
@@ -55,10 +55,37 @@ label {
     justify-content: space-between;
 }
 
+.div-button > button {
+    background-color: black;
+    border:1px solid black;
+    color: #FFFAFA;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
 .div-button > a {
     background: transparent;
     border: none;
     font-size: 20px;
     text-decoration: none;
+    margin-top: 25px;
     color: #000;
+}
+
+footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background: #85865f;
+  color: #fff;
+  height: 4vh;
+  padding-right: 24px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
