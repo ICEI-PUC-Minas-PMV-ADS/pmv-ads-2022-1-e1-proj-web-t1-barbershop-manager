@@ -6,6 +6,10 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
+- Projeto Barbershop Manager:
+![image](https://user-images.githubusercontent.com/103009155/173249091-ce49af80-b007-43ae-a00f-bf121de2a993.png)
+
+
 > **Links Úteis**:
 >
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
