@@ -29,7 +29,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas:
-- Planilha excel
+- Planilha do Microsoft Excel (formato xlsx)
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
