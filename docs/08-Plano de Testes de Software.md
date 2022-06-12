@@ -6,11 +6,15 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
 
-**Tela de Início
+### Tela de Login
+![Uploading image.png…]()
+
+
  
 ## Ferramentas de Testes (Opcional)
 
-Comente sobre as ferramentas de testes utilizadas.
+Comente sobre as ferramentas de testes utilizadas:
+- Planilha excel
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
