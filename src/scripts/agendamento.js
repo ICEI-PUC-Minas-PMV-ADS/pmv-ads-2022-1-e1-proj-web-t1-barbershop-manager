@@ -210,7 +210,6 @@ function handleClickFinalizarAgendamento() {
   dadosParaEnvio.Observacoes =
     document.getElementById("texto-observacoes").value;
   dadosParaEnvio.Pagamento = document.getElementById("select-pagamento").value;
-  console.log(dadosParaEnvio);
   sectionBarbeiros.classList.remove("hidden");
 }
 
