@@ -167,43 +167,34 @@ function handleAgendamento(horario, servicos) {
 }
 
 function handleClickServico(servico, total, preco) {
-  if (!dadosParaEnvio.Servicos.find((objeto) => objeto === servico)) {
-    dadosParaEnvio.Servicos.push(servico);
-    console.log(preco.toFixed(2));
-    dadosParaEnvio.Total += preco;
-    console.log(dadosParaEnvio.Total);
-    let checkmarkString =
-      "<img id='checkmark-" +
-      servico +
-      "' class='checkmark' src='../../assets/icons/overlay-servico.png'></img>";
-    document
-      .getElementById(servico)
-      .insertAdjacentHTML("beforebegin", checkmarkString);
-    document.getElementById("contador-selecao").textContent =
-      dadosParaEnvio.Servicos.length + "/" + total;
+  dadosParaEnvio.Servicos.push(servico);
+  dadosParaEnvio.Total += preco;
+  let checkmarkString =
+    "<img id='checkmark-" +
+    servico +
+    "' class='checkmark' src='../../assets/icons/overlay-servico.png'></img>";
+  document
+    .getElementById(servico)
+    .insertAdjacentHTML("beforebegin", checkmarkString);
+  document.getElementById("contador-selecao").textContent =
+    dadosParaEnvio.Servicos.length + "/" + total;
 
-    document.getElementById("total-a-pagar").textContent =
-      "R$" + dadosParaEnvio.Total.toFixed(2);
+  document.getElementById("total-a-pagar").textContent =
+    "R$" + dadosParaEnvio.Total.toFixed(2);
 
-    document.getElementById("checkmark-" + servico).addEventListener(
-      "click",
-      () => {
-        dadosParaEnvio.Servicos.splice(
-          dadosParaEnvio.Servicos.indexOf(servico)
-        );
-        dadosParaEnvio.Total -= preco;
-        document.getElementById("checkmark-" + servico).remove();
-        document.getElementById("contador-selecao").textContent =
-          dadosParaEnvio.Servicos.length + "/" + total;
-        document.getElementById("total-a-pagar").textContent =
-          "R$ " + dadosParaEnvio.Total.toFixed(2);
-      },
-      false
-    );
-  } else {
-    dadosParaEnvio.Servicos.splice(dadosParaEnvio.Servicos.indexOf(servico));
-    document.getElementById("checkmark-" + servico).remove();
-  }
+  document.getElementById("checkmark-" + servico).addEventListener(
+    "click",
+    () => {
+      dadosParaEnvio.Servicos.splice(dadosParaEnvio.Servicos.indexOf(servico), 1);
+      dadosParaEnvio.Total -= preco;
+      document.getElementById("checkmark-" + servico).remove();
+      document.getElementById("contador-selecao").textContent =
+        dadosParaEnvio.Servicos.length + "/" + total;
+      document.getElementById("total-a-pagar").textContent =
+        "R$ " + dadosParaEnvio.Total.toFixed(2);
+    },
+    false
+  );
 }
 
 function handleClickCancelarAgendamento() {
@@ -216,9 +207,10 @@ function handleClickCancelarAgendamento() {
 function handleClickFinalizarAgendamento() {
   sectionAgendamento.classList.add("hidden");
   document.getElementById("botoes-servicos").innerHTML = "";
-  dadosParaEnvio.Observacoes = document.getElementById("texto-observacoes").value
-  dadosParaEnvio.Pagamento = document.getElementById("select-pagamento").value
-  console.log(dadosParaEnvio)
+  dadosParaEnvio.Observacoes =
+    document.getElementById("texto-observacoes").value;
+  dadosParaEnvio.Pagamento = document.getElementById("select-pagamento").value;
+  console.log(dadosParaEnvio);
   sectionBarbeiros.classList.remove("hidden");
 }
 
