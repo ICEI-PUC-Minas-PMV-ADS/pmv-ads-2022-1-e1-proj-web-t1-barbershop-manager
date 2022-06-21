@@ -13,7 +13,7 @@ function validarDtNasc() {
 }
 
 function mascaraData( campo, e ) {
-	let kC = (document.all) ? event.keyCode : e.keyCode;
+	let kC = (document.all) ? e.keyCode : e.keyCode;
 	let data = campo.value;
 	
 	if(kC!=8 && kC!=46) {
