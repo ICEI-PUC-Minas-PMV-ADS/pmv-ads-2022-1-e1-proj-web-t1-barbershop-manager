@@ -22,16 +22,20 @@ function validatedLoginUserJson() {
 }
 
 function validatedLoginUserLocal(propsEmail, propsPassword) {
-    let data = JSON.parse(localStorage.getItem("newUsers"));
-    for(let i=0; i < data.length; i++){
-        console.log('éntrei');
-        if(propsEmail === data[i].email && propsPassword === data[i].password) {
-            localStorage.setItem("User", propsEmail);
-            localStorage.getItem(propsEmail);
-            return window.location.href="../../index.html"; 
+    if(localStorage.getItem("newUsers") != null){
+        let data = JSON.parse(localStorage.getItem("newUsers"));
+        for(let i=0; i < data.length; i++){
+            console.log('éntrei');
+            if(propsEmail === data[i].email && propsPassword === data[i].password) {
+                localStorage.setItem("User", propsEmail);
+                localStorage.getItem(propsEmail);
+                return window.location.href="../../index.html"; 
+            }
         }
+        invalidLogin();
+    } else {
+        invalidLogin();
     }
-    invalidLogin();
 }
 
 function invalidLogin() {
