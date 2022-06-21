@@ -35,3 +35,28 @@ section.fotos-unidade {
 .unidade-imagem > img {
   width: 100%;
 }
+
+@media(max-width: 780px){
+  .principal {
+    flex-direction: column-reverse;
+  }
+  section#fotos-unidade {
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1000vw;
+    max-width: 100%;
+    overflow: auto;
+    padding: 0;
+  }
+  .unidade-imagem {
+    margin-bottom: 2em;
+  }
+  .unidade-imagem > img {
+    width: 90vw;
+    margin: auto 1.2rem;
+  }
+  section.conteudo-principal.unidades {
+    width: 90%;
+    margin: auto;
+  }
+}
