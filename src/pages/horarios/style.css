@@ -1,68 +1,105 @@
-.menuprincipal { 
+.sectionHorarios { 
   background-color: #F5EACF; 
-  margin-top: 40px; 
-  margin-bottom: 80px; 
+  margin-top: 4vh; 
+  padding-bottom: 2vh;
   width: 100%;
   overflow-y: auto;
   max-height: 78vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.menuprincipal::-webkit-scrollbar {
+.sectionHorarios::-webkit-scrollbar {
   width: 8px; /* width of the entire scrollbar */
 }
 
-.menuprincipal::-webkit-scrollbar-track {
+.sectionHorarios::-webkit-scrollbar-track {
   background: transparent; /* color of the tracking area */
 }
 
 article{
-  height: 180px;
+  height: 18vmax;
   border-radius: 10px; 
-  margin: 16px auto; 
-  width: 400px; 
+  width: 40vmax; 
   background: white;
   box-shadow: 0px 4px 6px 0px rgba(166,166,166,0.75);
 }
 
-.card {
-  display:flex;
-}
-
-.grid-item {
+.gridItem {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 30px;
-  margin-left: 150px;
-  margin-top: 30px;
+  margin-left: 6vw;
+  margin-top: 2vh;
+  display: flex;
+  min-width: 550px;
+  min-height: 245px;
 }
 
-.grid-item > .fotobarbeiro {
-  margin-left: 250px;
-  height: 0%;
-  width: 0%;
+.gridContent {
+  display: block;
+  width: 85%;
+  overflow: scroll;
+}
+
+div.linha-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 2vw 1vh 2vw;
 }
 
 .espacocard {
   margin-left: 50px;
 }
 
-h1 {
-  font-size: 12px;
-  Word-spacing: 35px;
+strong,ul {
+  font-size: 16px;
   text-align: left;
 }
 
-h2 {
-  font-size: 9px;
-  Word-spacing: 62px;
+ul{
+  padding: 0;
+  font-weight: bold;
 }
 
-footer {
+li {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 2em;
+}
+
+.card {
+  display:flex;
+}
+
+.espacoCard {
+  margin-left: 50px;
+}
+
+div.topo-card{
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+}
+
+.fotobarbeiro{
+  display: inline-flex;
+  padding: 1%;
+}
+
+.hidden{
+  display: none !important;
+}
+
+div.notFound{
   display: flex;
-  justify-content: end;
-  align-items: center;
-  background: #85865f;
-  color: #fff;
-  height: 4vh;
-  padding-right: 1.5em;
+  margin: 16vmax;
+  flex-direction: column;
+  text-align: center;
+}
+
+.notFound > a {
+  font-size: 3em;
+  cursor: pointer;
 }
