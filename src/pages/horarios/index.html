@@ -11,91 +11,69 @@
     <link rel="stylesheet" href="../../style.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Horarios</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body style="overflow-y: hidden">
     <header></header>
-    
+
     <div class="principal">
-      <section class="menuprincipal">
-        <div class="card">
-          <div>
-            <article class="grid-item">
-              <h1>Agendamento Hudson-Antonelli</h1>
-              <div class="fotobarbeiro">
-              <img width="120" height="120" src="../../assets/images/barbeiro-2.png" />
-              </div>
-              <h1>Horário: 12:00</h1>
-              <h1>Serviços: Forma-de-pagamento</h1>
-              <h2>Corte Dinheiro</h2>
-              <h2>Barba</h2>
-              <h1>Observações:</h1>
-              <h2>Nenhuma</h2>
-            </article>
-          </div>
-          <div class="espacocard">
-            <article class="grid-item">
-              <h1>Agendamento Hudson-Antonelli</h1>
-              <div class="fotobarbeiro">
-                <img width="120" height="120" src="../../assets/images/barbeiro-2.png" />
-              </div>
-              <h1>Horário: 18:00</h1>
-              <h1>Serviços: Forma-de-pagamento</h1>
-              <h2>Corte Dinheiro</h2>
-              <h2>Barba</h2>
-              <h1>Observações:</h1>
-              <h2>Nenhuma</h2>
-            </article>
-          </div>
-        </div>
-        <div class="card">
-          <div>
-            <article class="grid-item">
-              <h1>Agendamento Hudson-Antonelli</h1>
-              <div class="fotobarbeiro">
-                <img width="120" height="120" src="../../assets/images/barbeiro-2.png" />
-              </div>
-              <h1>Horário: 20:00</h1>
-              <h1>Serviços: Forma-de-pagamento</h1>
-              <h2>Corte Dinheiro</h2>
-              <h2>Barba</h2>
-              <h1>Observações:</h1>
-              <h2>Nenhuma</h2>
-            </article>
-          </div>
-          <div class="espacocard">
-            <article class="grid-item">
-              <h1>Agendamento Hudson-Antonelli</h1>
-              <div class="fotobarbeiro">
-                <img width="120" height="120" src="../../assets/images/barbeiro-2.png" />
-              </div>
-              <h1>Horário: 19:00</h1>
-              <h1>Serviços: Forma-de-pagamento</h1>
-              <h2>Corte Dinheiro</h2>
-              <h2>Barba</h2>
-              <h1>Observações:</h1>
-              <h2>Nenhuma</h2>
-            </article>
-          </div>
-        </div>
-          <div class="card">
-            <div>
-              <article class="grid-item">
-                <h1>Agendamento Hudson-Antonelli</h1>
-                <div class="fotobarbeiro">
-                  <img width="120" height="120" src="../../assets/images/barbeiro-2.png" />
-                </div>
-                <h1>Horário: 21:00</h1>
-                <h1>Serviços: Forma-de-pagamento</h1>
-                <h2>Corte Dinheiro</h2>
-                <h2>Barba</h2>
-                <h1>Observações:</h1>
-                <h2>Nenhuma</h2>
-              </article>
+      <section class="sectionHorarios" id="sectionHorarios">
+        <article class="gridItem">
+          <div class="gridContent">
+            <div class="topo-card">
+              <strong>Agendamento</strong>
+              <img src="../../assets/icons/scissors.svg" alt="tesoura" />
+              <strong>Hudson-Antonelli</strong>
             </div>
+            <div class="linha-card">
+              <strong>Horário:</strong>
+              <strong>12:00</strong>
+            </div>
+            <div class="linha-card">
+              <div>
+                <ul>
+                  Serviços:
+                </ul>
+                <li>Corte</li>
+                <li>Barba</li>
+              </div>
+              <div>
+                <ul>
+                  Forma de pagamento
+                </ul>
+                <li>Dinheiro</li>
+              </div>
+            </div>
+            <div class="linha-card">
+              <div>
+                <ul>
+                  Observações:
+                </ul>
+                <li>Nenhuma</li>
+              </div>
+            </div>
+          </div>
+          <div class="fotobarbeiro">
+            <img
+              width="100%"
+              height="100%"
+              src="../../assets/images/barbeiro-2.png"
+              alt="foto-barbeiro"
+            />
+          </div>
+        </article>
+        <div id="dadosInexistentes" class="hidden notFound">
+          <h1> Ops! Parece que não tem nenhum horário aqui, que tal fazermos um agendamento para mudar isso?</h1>
+          <a href="../agendamento/index.html">Clique Aqui</a>
         </div>
       </section>
     </div>
