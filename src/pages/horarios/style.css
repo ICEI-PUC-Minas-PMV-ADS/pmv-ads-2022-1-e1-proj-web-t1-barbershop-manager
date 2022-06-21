@@ -32,6 +32,8 @@ article{
   margin-left: 6vw;
   margin-top: 2vh;
   display: flex;
+  min-width: 550px;
+  min-height: 245px;
 }
 
 .gridContent {
@@ -61,8 +63,7 @@ ul{
 }
 
 li {
-  font-size: 12px;
-  Word-spacing: 62px;
+  font-size: 14px;
   font-weight: 600;
   margin-left: 2em;
 }

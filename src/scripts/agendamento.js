@@ -9,6 +9,7 @@ var agendamentosDisponiveis = new XMLHttpRequest();
 var servicosPrestados = new XMLHttpRequest();
 
 var dadosParaEnvio = {
+  IdBarbeiro: 0,
   Servicos: [],
   Total: 0,
   Pagamento: "",
@@ -120,10 +121,11 @@ function normalizarTexto(text) {
     .toLowerCase();
 }
 
-function handleAgendamento(horario, servicos) {
+function handleAgendamento(horario, servicos, barbeiroId) {
   sectionBarbeiros.classList.add("hidden");
 
   dadosParaEnvio.Horario = horario;
+  dadosParaEnvio.IdBarbeiro = barbeiroId;
 
   let htmlString = "";
   let servicosPrestadosJson = JSON.parse(servicosPrestados.responseText);
@@ -210,7 +212,22 @@ function handleClickFinalizarAgendamento() {
   dadosParaEnvio.Observacoes =
   document.getElementById("texto-observacoes").value;
   dadosParaEnvio.Pagamento = document.getElementById("select-pagamento").value;
+  let horariosAtuais = JSON.parse(window.localStorage.getItem("Horarios"))
+  if(horariosAtuais === undefined || horariosAtuais === null){
+    horariosAtuais = [];
+  }
+  horariosAtuais.push(dadosParaEnvio);
+  console.log(horariosAtuais)
+  window.localStorage.setItem("Horarios", JSON.stringify(horariosAtuais));
   sectionBarbeiros.classList.remove("hidden");
+  dadosParaEnvio = {
+    IdBarbeiro: 0,
+    Servicos: [],
+    Total: 0,
+    Pagamento: "",
+    Horario: "",
+    Observacoes: "",
+  };
 }
 
 function addButtonEventListeners(barbeiros) {
@@ -222,7 +239,7 @@ function addButtonEventListeners(barbeiros) {
       if (!isButton) {
         return;
       } else if (window.localStorage.getItem("User") != null){
-        handleAgendamento(event.target.textContent, barbeiro.Servicos);
+        handleAgendamento(event.target.textContent, barbeiro.Servicos, barbeiro.Id);
       } else {
         alert('Para efetuar um agendamento é necessário fazer o login!');
       }
