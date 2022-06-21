@@ -208,7 +208,7 @@ function handleClickFinalizarAgendamento() {
   sectionAgendamento.classList.add("hidden");
   document.getElementById("botoes-servicos").innerHTML = "";
   dadosParaEnvio.Observacoes =
-    document.getElementById("texto-observacoes").value;
+  document.getElementById("texto-observacoes").value;
   dadosParaEnvio.Pagamento = document.getElementById("select-pagamento").value;
   sectionBarbeiros.classList.remove("hidden");
 }
@@ -216,13 +216,20 @@ function handleClickFinalizarAgendamento() {
 function addButtonEventListeners(barbeiros) {
   for (let barbeiro of barbeiros) {
     const wrapper = document.getElementById(barbeiro.Id);
-
+    
     wrapper.addEventListener("click", (event) => {
       const isButton = event.target.nodeName === "BUTTON";
       if (!isButton) {
         return;
+      } else if (window.localStorage.getItem("User") != null){
+        handleAgendamento(event.target.textContent, barbeiro.Servicos);
+      } else {
+        alert('Para efetuar um agendamento é necessário fazer o login!');
       }
-      handleAgendamento(event.target.textContent, barbeiro.Servicos);
     });
-  }
+  } 
 }
+ 
+//else {
+  //
+//}
