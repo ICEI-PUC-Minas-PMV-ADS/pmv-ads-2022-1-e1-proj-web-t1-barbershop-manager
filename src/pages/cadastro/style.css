@@ -53,6 +53,7 @@ input {
 .div-button {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .div-button > button {
@@ -88,4 +89,14 @@ footer {
   bottom: 0;
   right: 0;
   width: 100%;
+}
+
+@media(max-width:780px){
+    main.principal-home {
+        min-height: 100vh;
+    }
+    section.logo {
+        width: 100%;
+        padding-left: 0;
+    }
 }
