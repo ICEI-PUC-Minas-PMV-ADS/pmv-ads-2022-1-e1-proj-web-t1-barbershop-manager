@@ -1,4 +1,4 @@
-let header = document.querySelector('header');
+const header = document.querySelector('header');
 
 let inicioURL;
 let agendamentoURL;
@@ -54,12 +54,16 @@ menu.innerHTML = `
         `">Unidades</a>
     </nav>
     ` +
-        (window.localStorage.length === 0 ?
+        (window.localStorage.getItem("User") == null ?
             '<a href="' + loginURL + '" class="login-button">Login</a>'
         :
             `
             <button class="loggout">   
-                <img src="`+ (window.location.pathname.includes("src/index.html") ? './assets/images/log-out.png' : '../../assets/images/log-out.png') + `" alt="loggout" />
+                <img src="`+ 
+                    (window.location.pathname.includes("src/index.html") 
+                    ? './assets/images/log-out.png' 
+                    : '../../assets/images/log-out.png') + 
+                `" alt="loggout" />
             </button>
             `)
         + `
