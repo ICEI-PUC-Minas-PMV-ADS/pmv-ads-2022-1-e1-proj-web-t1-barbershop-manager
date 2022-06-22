@@ -35,7 +35,9 @@ if(window.location.pathname.includes("agendamento")){
 header.innerHTML = '';
 const menu = document.createElement("div");
 header.append(menu);
-menu.innerHTML = `
+
+if(window.innerWidth > 780){
+    menu.innerHTML = `
     <nav class="menu">        
         <a href="` + inicioURL + `" class="button-menu inicio ` 
         + (window.location.pathname.includes("src/index.html") ? 'active' : '') + 
@@ -68,8 +70,55 @@ menu.innerHTML = `
             `)
         + `
     `
+} else {
+    menu.innerHTML = `
+    <button class="button-mob"> 
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav class="menu mob">        
+        <a href="` + inicioURL + `" class="button-menu inicio ` 
+        + (window.location.pathname.includes("src/index.html") ? 'active' : '') + 
+        `">Início</a>
+        <hr />
+        <a href="` + agendamentoURL + `" class="button-menu agendamento ` 
+        + (window.location.pathname.includes("agendamento") ? 'active' : '') + 
+        `">Agendamento</a>
+        <hr />
+        <a href="` + horariosURL + `" class="button-menu horarios ` 
+        + (window.location.pathname.includes("horarios") ? 'active' : '') + 
+        `">Meus Horários</a>
+        <hr />
+        <a href="` + unidadesURL + `" class="button-menu unidades ` 
+        + (window.location.pathname.includes("unidades") ? 'active' : '') + 
+        `">Unidades</a>
+    </nav>
+    ` +
+        (window.localStorage.getItem("User") == null ?
+            '<a href="' + loginURL + '" class="login-button">Login</a>'
+        :
+            `
+            <button class="loggout">   
+                <img src="`+ 
+                    (window.location.pathname.includes("src/index.html") 
+                    ? './assets/images/log-out.png' 
+                    : '../../assets/images/log-out.png') + 
+                `" alt="loggout" />
+            </button>
+            `)
+        + `
+    `
+}
 let login = document.querySelector('.login-button');
 let limparLogin = document.querySelector('.loggout');
+let botaoMenu = document.querySelector('.button-mob');
+
+botaoMenu.addEventListener('click', (ev) => {
+    ev.preventDefault();
+    let menuFlutuante = document.querySelector('.mob');
+    menuFlutuante.classList.toggle('ativo');
+});
 
 limparLogin.addEventListener('click', (ev) => {
     ev.preventDefault();

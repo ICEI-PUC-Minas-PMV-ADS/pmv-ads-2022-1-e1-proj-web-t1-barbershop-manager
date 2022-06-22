@@ -11,7 +11,9 @@ body {
     background-position: center;
     overflow: hidden;
 }
-
+main.principal-home {
+    min-height: 100vh;
+}
 .div-cadastro {
     display: flex;
     flex-direction: column;
@@ -92,9 +94,6 @@ footer {
 }
 
 @media(max-width:780px){
-    main.principal-home {
-        min-height: 100vh;
-    }
     section.logo {
         width: 100%;
         padding-left: 0;

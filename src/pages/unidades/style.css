@@ -49,11 +49,12 @@ section.fotos-unidade {
     padding: 0;
   }
   .unidade-imagem {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
   }
   .unidade-imagem > img {
-    width: 90vw;
-    margin: auto 1.2rem;
+    width: 80vw;
+    height: 25vh;
+    padding: 0.5em;
   }
   section.conteudo-principal.unidades {
     width: 90%;
