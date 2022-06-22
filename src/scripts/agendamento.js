@@ -5,6 +5,8 @@ var sectionBarbeiros = document.getElementById("section-barbeiros");
 var sectionAgendamento = document.getElementById("section-agendamento");
 var buttonCancelar = document.getElementById("button-cancelar");
 var buttonFinalizar = document.getElementById("button-finalizar");
+const aviso = document.getElementById('aviso');
+const sair = document.getElementsByClassName('sair');
 var agendamentosDisponiveis = new XMLHttpRequest();
 var servicosPrestados = new XMLHttpRequest();
 
@@ -38,6 +40,9 @@ buttonFinalizar.addEventListener(
   handleClickFinalizarAgendamento,
   false
 );
+aviso.addEventListener("click", handleAviso, false);
+sair.addEventListener("click", handleAviso, false);
+
 
 function renderHTML(data) {
   let htmlString = "";
@@ -230,6 +235,10 @@ function handleClickFinalizarAgendamento() {
   };
 }
 
+function handleAviso(){
+  aviso.classList.toggle('ativo');
+}
+
 function addButtonEventListeners(barbeiros) {
   for (let barbeiro of barbeiros) {
     const wrapper = document.getElementById(barbeiro.Id);
@@ -241,12 +250,8 @@ function addButtonEventListeners(barbeiros) {
       } else if (window.localStorage.getItem("User") != null){
         handleAgendamento(event.target.textContent, barbeiro.Servicos, barbeiro.Id);
       } else {
-        alert('Para efetuar um agendamento é necessário fazer o login!');
+        handleAviso();
       }
     });
   } 
 }
- 
-//else {
-  //
-//}

@@ -271,6 +271,64 @@ img{
   display: none;
 }
 
+#aviso {
+  display: none;
+}
+
+#aviso.ativo {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background: rgba(0, 0, 0, .6);
+  z-index: 1;
+}
+
+.aviso-conteudo > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.aviso-conteudo > h3 {
+  text-align: center;
+}
+.aviso-conteudo {
+  position: relative;
+  width: 50vh;
+  height: 25vh;
+  background: rgba(245, 234, 207, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+  box-sizing: border-box;
+  margin: 35vh auto;
+  border-radius: 1em;
+}
+
+.botao-alerta {
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.botao-alerta.fazer {
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.botao-alerta.sair:hover {
+  border-bottom: 2px solid;
+}
+
 @media(max-width: 780px) {
   section.conteudo-principal {
     width: 90%;
@@ -351,5 +409,8 @@ img{
   .observacoes-e-pagamento > div > select, 
   .observacoes-e-pagamento > div > strong {
     margin-right: 0;
+  }
+  .aviso-conteudo > div {
+    justify-content: space-between;
   }
 }
