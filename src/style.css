@@ -80,6 +80,8 @@ header > div > button > img {
   background-size: cover;
   background-position: center;
   height: 92vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 section.logo {
