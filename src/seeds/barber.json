@@ -5,7 +5,7 @@
     "Imagem": "../../assets/images/barbeiro-1.png",
     "Horarios": ["08:00", "09:00", "11:00", "13:00", "15:00", "18:00", "19:00"],
     "Servicos": ["Corte", "Barba", "Hidratação", "Coloração", "Selagem"],
-    "Unidade": "Unidade1"
+    "Unidade": "Unidade Minas Gerais"
   },
   {
     "Id": "02",
@@ -13,7 +13,7 @@
     "Imagem": "../../assets/images/barbeiro-2.png",
     "Horarios": ["08:30", "09:30", "11:30", "13:30", "15:30"],
     "Servicos": ["Corte", "Barba", "Selagem"],
-    "Unidade": "Unidade1"
+    "Unidade": "Unidade Minas Gerais"
   },
   {
     "Id": "03",
@@ -21,7 +21,7 @@
     "Imagem": "../../assets/images/barbeiro-3.png",
     "Horarios": ["07:30", "10:30", "12:30"],
     "Servicos": ["Corte", "Barba"],
-    "Unidade": "Unidade2"
+    "Unidade": "Unidade Bahia"
   },
   {
     "Id": "04",
@@ -29,6 +29,6 @@
     "Imagem": "../../assets/images/barbeiro-4.png",
     "Horarios": ["07:30", "10:30", "12:30", "14:30", "00:30"],
     "Servicos": ["Corte", "Barba", "Coloração"],
-    "Unidade": "Unidade2"
+    "Unidade": "Unidade Bahia"
   }
 ]

@@ -21,10 +21,9 @@ section.conteudo-principal.unidades {
 section.fotos-unidade {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 50%;
   overflow-y: hidden;
-  padding-top: 40vh;
+  padding-top: 4vh;
 }
 
 .unidade-imagem {
@@ -33,7 +32,9 @@ section.fotos-unidade {
 }
 
 .unidade-imagem > img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 400px;
+  aspect-ratio: 4/3;
 }
 
 @media(max-width: 780px){
@@ -41,19 +42,22 @@ section.fotos-unidade {
     flex-direction: column-reverse;
   }
   section#fotos-unidade {
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
-    width: 1000vw;
+    width: 100vw;
     max-width: 100%;
     overflow: auto;
     padding: 0;
   }
   .unidade-imagem {
     margin-bottom: 4em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
   }
   .unidade-imagem > img {
-    width: 80vw;
-    height: 25vh;
+    width: 90%;
+    height: auto;
     padding: 0.5em;
   }
   section.conteudo-principal.unidades {
