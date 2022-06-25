@@ -2,9 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+Foram feitos testes para cada uma das telas implementadas no site. Dessa forma foi possível validar as funcionalidades que não estavam descritas nos requisitos funcionais mas que eram necessárias para uma boa experiência de usuário, além de facilitar a detecção de erros.
 
 ### Tela de Login
 ![image](https://user-images.githubusercontent.com/103009155/173248515-f4bb229b-80e9-4fea-90ab-cd175b2406c0.png)
