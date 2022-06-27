@@ -114,14 +114,15 @@ let login = document.querySelector('.login-button');
 let limparLogin = document.querySelector('.loggout');
 let botaoMenu = document.querySelector('.button-mob');
 
-botaoMenu.addEventListener('click', (ev) => {
-    ev.preventDefault();
-    let menuFlutuante = document.querySelector('.mob');
-    menuFlutuante.classList.toggle('ativo');
-});
 
 limparLogin.addEventListener('click', (ev) => {
     ev.preventDefault();
     window.localStorage.clear();
     document.location.reload(true);
+});
+
+botaoMenu.addEventListener('click', (ev) => {
+    ev.preventDefault();
+    let menuFlutuante = document.querySelector('.mob');
+    menuFlutuante.classList.toggle('ativo');
 });
