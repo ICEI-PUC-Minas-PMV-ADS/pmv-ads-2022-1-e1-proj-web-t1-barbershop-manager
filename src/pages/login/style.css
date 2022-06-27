@@ -73,7 +73,6 @@ input{
 p{
     color: black;
     margin-top: 30px;
-    
 }
 
 p > a{
@@ -96,4 +95,11 @@ p > a:hover{
     color: #FFFAFA ;
     font-size: 18px;
     
+}
+
+@media(max-width: 780px){
+    p {
+        font-size: .8rem;
+        text-align: center;
+    }
 }
