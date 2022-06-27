@@ -25,7 +25,6 @@ function validatedLoginUserLocal(propsEmail, propsPassword) {
     if(localStorage.getItem("newUsers") != null){
         let data = JSON.parse(localStorage.getItem("newUsers"));
         for(let i=0; i < data.length; i++){
-            console.log('éntrei');
             if(propsEmail === data[i].email && propsPassword === data[i].password) {
                 localStorage.setItem("User", propsEmail);
                 localStorage.getItem(propsEmail);
