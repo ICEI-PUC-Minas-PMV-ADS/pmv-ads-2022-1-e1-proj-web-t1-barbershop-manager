@@ -1,0 +1,23 @@
+message: Please cite this software using these metadata.
+title: Barber shop Manager
+authors:
+  - family-names: Nordson Silva dos Santos
+    given-names: Herbert 
+  - family-names: de Jesus Santos
+    given-names: Samuel 
+  - family-names: Bicalho Cruz Magalhães
+    given-names: Ramon 
+  - family-names: de Souza Ponciano
+    given-names: Vinícius 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina de Paiva Carvalho
+    given-names: Joyce 
+
+keywords:
+  - Gestão
+  - Agendamento
+  - Barbearia	
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-barbershop-manager
+version: 1.0.0
+date-released: 2022-06-25
